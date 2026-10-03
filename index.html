@@ -6,8 +6,35 @@
     <title>Natures Platter</title>
     <!-- tailwind css -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Font Awesome Cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
+      integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
-    <h2 class="font-bold text-red-500 text-3xl">Natures Platter</h2>
+    <header>
+      <nav class="grid grid-cols-3 gap-4 justify-center container mx-auto pt-4">
+        <img src="./assets/nav-logo.png" class="w-[120px] h-auto" alt="" />
+        <ul class="flex gap-4 items-center">
+          <li><a href="">Product</a></li>
+          <li><a href="">Services</a></li>
+          <li><a href="">Contact Us</a></li>
+        </ul>
+        <div class="flex gap-4 items-center">
+          <span><i class="fa-solid fa-magnifying-glass"></i></span>
+          <span><i class="fa-solid fa-cart-shopping"></i></span>
+          <button class="rounded border border-green-500 px-3 py-1">
+            Login
+          </button>
+          <button class="rounded bg-green-500 px-3 py-1 text-white">
+            Register
+          </button>
+        </div>
+      </nav>
+    </header>
   </body>
 </html>
